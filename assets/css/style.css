@@ -1,0 +1,41 @@
+body{
+    background-image: url(../images/background.jpg);
+}
+
+nav{
+    background-color:#4A6670;
+}
+
+.box{
+    background-color:#8B786D;
+}
+.about{
+    text-align: left;
+    color:black;
+    font-weight: bold;
+    font-size: 35px;
+    color:white;
+    font-weight: 45;
+}
+
+footer{
+    text-align: center;
+    color:white;
+    background-color:#4A6670;
+    position: fixed;
+    width:82%;
+}
+
+.btn{
+background-color:#7C99B4;
+}
+
+.labels{
+    color:white;
+    font-size: 15px;
+
+}
+
+h1{
+    border-bottom: solid 1px #4A6670;
+}
