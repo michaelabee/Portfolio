@@ -10,6 +10,8 @@ nav{
 #profile-pic{
     float:left;
     max-height: 175px;
+    padding:2px;
+    margin-right:5px;
 }
 
 .about{
@@ -64,6 +66,18 @@ footer{
     left: 100;
     bottom: 0;
     padding: 0;
+}
+
+#portfolio-footer{
+    text-align: center;
+    color:white;
+    background-color:#4A6670;
+    position: relative;
+    width:100%;
+    /* left: 100; */
+    bottom: 0;
+    padding: 0;
+
 }
 
 .btn{
