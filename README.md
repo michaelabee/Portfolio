@@ -1,6 +1,6 @@
 # Portfolio
 
-I'm currently searching for a full time position working in React. Let's get in touch! 
+Click on the link to see my latest work, current interests and how to get in touch with me. 
 
-https://www.linkedin.com/in/michaela-banczak-00999/
+https://michaelabee.github.io/Portfolio/
 
