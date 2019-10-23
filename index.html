@@ -3,14 +3,24 @@
 
 <head>
     <title>M. Banczak Portfolio</title>
-
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 
     <script src="https://kit.fontawesome.com/bd5124cceb.js"></script>
 
+
 </head>
+
+<script>
+$(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+</script>
 
 <body>
     <div class="content">
@@ -21,10 +31,23 @@
                 <div class="nav-wrapper">
                 <a href="index.html" class="brand-logo">Michaela Banczak</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="index.html">About Me</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
                 </ul>
+
+                <script>
+                    $(".button-collapse").sideNav();
+                </script>
+          
+                <ul class="sidenav" id='mobile-demo'>
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+          
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">&#9776;</i></a>
+          
                 </div>
             </nav>
         </div>
